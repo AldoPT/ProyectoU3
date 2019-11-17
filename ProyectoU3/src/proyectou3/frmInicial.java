@@ -40,6 +40,7 @@ public class frmInicial extends javax.swing.JFrame {
         lblImagen1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         btnAltas.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         btnAltas.setText("Altas");

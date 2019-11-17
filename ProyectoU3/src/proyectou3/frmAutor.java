@@ -28,18 +28,20 @@ public class frmAutor extends javax.swing.JFrame {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        txtAutor = new javax.swing.JTextArea();
         btnAtras = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+        setTitle("Autor");
+        setResizable(false);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jTextArea1.setRows(5);
-        jTextArea1.setText("\nAlumno: Aldo Perez Torres\n\nTercer Semestre\n\nPlantel: CBTIS #94\n\nAsignatura: Programación Orientada a Objetos y Eventos\n\nPátzcuaro, Michoacán - Noviembre 29, 2019\n");
-        jScrollPane1.setViewportView(jTextArea1);
+        txtAutor.setEditable(false);
+        txtAutor.setColumns(20);
+        txtAutor.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        txtAutor.setRows(5);
+        txtAutor.setText("\nAlumno: Aldo Perez Torres\n\nTercer Semestre\n\nPlantel: CBTIS #94\n\nAsignatura: Programación Orientada a Objetos y Eventos\n\nPátzcuaro, Michoacán - Noviembre 29, 2019\n");
+        jScrollPane1.setViewportView(txtAutor);
 
         btnAtras.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
         btnAtras.setText("Atrás");
@@ -123,6 +125,6 @@ public class frmAutor extends javax.swing.JFrame {
     private javax.swing.JButton btnAtras;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea txtAutor;
     // End of variables declaration//GEN-END:variables
 }

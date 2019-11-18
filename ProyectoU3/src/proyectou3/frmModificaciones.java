@@ -5,6 +5,8 @@
  */
 package proyectou3;
 
+import java.awt.Color;
+
 /**
  *
  * @author ALDO
@@ -16,6 +18,8 @@ public class frmModificaciones extends javax.swing.JFrame {
      */
     public frmModificaciones() {
         initComponents();
+         this.getContentPane().setBackground(Color.orange);
+        this.setLocationRelativeTo(null);
     }
 
     /**

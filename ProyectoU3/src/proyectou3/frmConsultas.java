@@ -6,6 +6,8 @@
 
 package proyectou3;
 
+import java.awt.Color;
+
 /**
  *
  * @author ALDO
@@ -15,6 +17,8 @@ public class frmConsultas extends javax.swing.JFrame {
     /** Creates new form frmConsultas */
     public frmConsultas() {
         initComponents();
+         this.getContentPane().setBackground(Color.orange);
+        this.setLocationRelativeTo(null);
     }
 
     /** This method is called from within the constructor to

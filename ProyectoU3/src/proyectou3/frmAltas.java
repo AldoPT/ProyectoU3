@@ -5,6 +5,8 @@
  */
 package proyectou3;
 
+import java.awt.Color;
+
 /**
  *
  * @author 18PROGB0026
@@ -16,6 +18,8 @@ public class frmAltas extends javax.swing.JFrame {
      */
     public frmAltas() {
         initComponents();
+         this.getContentPane().setBackground(Color.orange);
+        this.setLocationRelativeTo(null);
     }
 
     /**
